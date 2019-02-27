@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.mukesh.OnOtpCompletionListener;
-import com.mukesh.OtpView;
+import com.sfs.OnOtpCompletionListener;
+import com.sfs.OtpView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,
         OnOtpCompletionListener {
