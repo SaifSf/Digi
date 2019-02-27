@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initializeUi();
-        setListeners();
     }
 
 
@@ -24,9 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         otpView = findViewById(R.id.otp_view);
         otpView.setOtpCompletionListener(this);
 
-    }
-
-    private void setListeners() {
     }
 
     @Override
